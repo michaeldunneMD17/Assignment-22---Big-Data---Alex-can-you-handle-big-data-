@@ -74,8 +74,9 @@ But are Vine reviews truly trustworthy? Your task is to investigate whether Vine
 
 ## Hints and Considerations
 
-* Be sure to use Google Colab to write your code, it is considerably easier to work with PySpark.
+* Be sure that to start each notebook with following code in the first cell and update the Spark version.
 
+```python
 import os
 # Find the latest version of spark 3.0  from http://www-us.apache.org/dist/spark/ and enter as the spark version
 # For example:
@@ -98,6 +99,7 @@ os.environ["SPARK_HOME"] = f"/content/{spark_version}-bin-hadoop2.7"
 # Start a SparkSession
 import findspark
 findspark.init()
+```
 
  
 * Be sure to use the PySpark setup code used in the activities to get all setup with PySpark in Google Colab.
