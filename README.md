@@ -99,6 +99,7 @@ os.environ["SPARK_HOME"] = f"/content/{spark_version}-bin-hadoop2.7"
 import findspark
 findspark.init()
 
+ 
 * Be sure to use the PySpark setup code used in the activities to get all setup with PySpark in Google Colab.
 
 - - -
